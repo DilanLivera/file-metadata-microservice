@@ -1,0 +1,23 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilanLivera/file-metadata-microservice.git"
+  },
+  "author": "Dilan Livera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DilanLivera/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/DilanLivera/file-metadata-microservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
