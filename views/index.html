@@ -9,5 +9,14 @@
 </head>
 <body>
   <h1>File Metadata Microservice</h1>
+  <div class="container">
+    <p>
+      Please Upload a File ...
+    </p>
+    <form enctype="multipart/form-data" method="POST" action="/api/fileanalyze">
+      <input id="inputfield" type="file" name="upfile">
+      <input id="button" type="submit" value="Upload">
+    </form>
+  </div>
 </body>
 </html>
