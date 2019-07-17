@@ -8,15 +8,25 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <h1>File Metadata Microservice</h1>
   <div class="container">
+    <h2>File Metadata Microservice</h2>
+    <h3>User Stories:</h3>
+    <ol>
+      <li>User can submit a form object that includes a file upload.</li>      
+      <li>When user submit something, User will receive the file name, and size in bytes within the JSON response.</li>
+    </ol>
+
+    <h3>Usage:</h3>
     <p>
       Please Upload a File ...
     </p>
-    <form enctype="multipart/form-data" method="POST" action="/api/fileanalyze">
-      <input id="inputfield" type="file" name="upfile">
-      <input id="button" type="submit" value="Upload">
-    </form>
+    <div class="view">
+      <h4 id="output"></h4>
+      <form enctype="multipart/form-data" method="POST" action="/api/fileanalyze">
+        <input id="inputfield" type="file" name="upfile">
+        <input id="button" type="submit" value="Upload">
+      </form>
+    </div>
   </div>
 </body>
 </html>
